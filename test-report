@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User can login with proper credentials",
+        "description": "",
+        "id": "login;user-can-login-with-proper-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4126481754,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "LoginSteps.user_is_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15518254,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of the login page is TechFios",
+            "match": {
+              "location": "LoginSteps.title_of_the_login_page_is_TechFios()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 210208994,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginSteps.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1511528377,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click on login button",
+            "match": {
+              "location": "LoginSteps.user_click_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 707448791,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Dashboard Page will display",
+            "match": {
+              "location": "LoginSteps.dashboard_Page_will_display()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "As a user I want a login page in order to validate authentic user access.",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/login.feature"
+  }
+]
